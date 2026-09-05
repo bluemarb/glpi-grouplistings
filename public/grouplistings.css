@@ -1,0 +1,64 @@
+.grouplistings-toolbar {
+    position: relative;
+    z-index: 2;
+}
+
+.grouplistings-search-host .ga-entity-row {
+    background: var(--tblr-bg-surface-secondary, #f2f4f8);
+    border-bottom: 1px solid var(--tblr-border-color, #d9dde3);
+    border-top: 1px solid var(--tblr-border-color, #d9dde3);
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.grouplistings-search-host .ga-entity-row:hover {
+    background: var(--tblr-active-bg, #e9edf3);
+}
+
+.grouplistings-search-host .ga-entity-row td {
+    padding-bottom: .55rem;
+    padding-top: .55rem;
+}
+
+.grouplistings-search-host .ga-entity-header {
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.grouplistings-search-host .ga-entity-title {
+    align-items: flex-start;
+    display: inline-flex;
+    gap: .4rem;
+}
+
+.grouplistings-search-host .ga-entity-levels {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2;
+}
+
+.grouplistings-search-host .ga-entity-parent {
+    color: var(--tblr-secondary-color, #667382);
+    font-size: .75rem;
+    font-weight: 400;
+}
+
+.grouplistings-search-host .ga-entity-name {
+    font-weight: 600;
+}
+
+.grouplistings-search-host .ga-entity-childline {
+    align-items: center;
+    display: inline-flex;
+    gap: .4rem;
+}
+
+.grouplistings-search-host .ga-chevron {
+    display: inline-block;
+    transition: transform 150ms ease;
+}
+
+.grouplistings-search-host .ga-entity-row.is-collapsed .ga-chevron {
+    transform: rotate(-90deg);
+}
