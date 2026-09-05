@@ -20,7 +20,7 @@ Columns are managed by GLPI's standard personal/global display preferences.
 The **Group by** selector is populated from the columns visible in the current
 list.
 
-## Installation on the Bluelan GLPI host
+## Installation on the GLPI host
 
 Extract the archive so the plugin directory is exactly:
 
